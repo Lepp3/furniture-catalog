@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans',sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* padding-top: 30px; */
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.24);
+    background-blend-mode: overlay;
+    height: 760px;
+    gap: 90px;
+}
+
+
+
+
+.siteHeader{
+    position: relative;
+    width: 1344px;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px auto;
+    align-items: center;
+}
+
+.navMenu{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 17px;
+    
+}
+
+.navMenu li{
+    display: block;
+}
+
+.navMenu a{
+    display: block;
+    padding: 0.5em 0.7em;
+}
+
+.logoWrapper{
+    
+    height: auto;
+}
+
+.logoWrapper img{
+    /* position: absolute; */
+    height: 140px;
+    
+}
+
+
+.heroContent{
+    margin:  0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1344px;
+}
+
+.heroContent h1{
+    font-size: 4rem;
+   
+}
+
+.heroParagraphs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.heroParagraphs p{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.moreInfo{
+    background-color: white;
+    width: max-content;
+    margin: 45px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #888888;
+    font-weight: 600;
+}
+
+.catalog{
+    background-color: hsl(192.99deg 43.89% 56.67%);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 30px;
+}
+
+.headings{
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.catalogContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1344px;
+    margin: 0 auto;
+    
+}
+
+.catalogCard{
+    background-color: #FFF;
+    display: flex;
+    flex: 0 0 45%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-right: 8px solid hsl(192.99deg 43.89% 56.67%);
+    height: 300px;
+}
+
+
+
+
+.cardInfo{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+
+
+.cardInfo h3{
+    text-align: center;
+    flex: 0 0 100%;
+    margin: auto;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cardInfo p{
+    text-align: justify;
+    display: block;
+    
+    
+}
+
+
+.catalogCard img{
+    /* display: block; */
+    width: 50%;
+    object-fit: cover;
+    object-position: left;
+    height: auto;
+}
+
+.previewContent{
+    margin: 40px auto;
+    max-width: 1344px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.preview{
+    max-height: 80%;
+    flex: 0 0 30%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.preview img{
+    height: 163px;
+    display: block;
+    width: 182px;
+}
+
+.previewText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.catalogContent>img{
+    height: 300px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.aboutWrapper{
+    max-width: 1334px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.aboutWrapper .headings{
+    opacity: 0.6;
+}
+
+.aboutContent{
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.siteFooter{
+    background: hsl(216deg 14.29% 20.59%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
